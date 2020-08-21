@@ -12,7 +12,7 @@ import "firebase/firestore";
 import "firebase/database";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAx65bSZGyrNGTP07-jdNGkjKYu_FoPYTI",
+  apiKey: "API Key",
   authDomain: "map-o-gram.firebaseapp.com",
   databaseURL: "https://map-o-gram.firebaseio.com",
   projectId: "map-o-gram",
