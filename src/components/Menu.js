@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Menu = () =>{
+const Menu = (props) =>{
     return(
     <div id="menu-bar">
         <header id="header">
@@ -16,7 +16,7 @@ const Menu = () =>{
                 <button id="me-button" className="menu-button" onClick={()=>window.open('http://tejus-revi.web.app/', '_blank')}>ME</button>
             </div>
             <div className="menu-item">
-                <button className="menu-button">DATABASE</button>
+                <button className="menu-button" onClick={()=>window.open('https://github.com/tejusrevi/mapogram', '_blank')}>GITHUB</button>
             </div>
             <div className="menu-item">
                 <button className="menu-button" >HOME</button>
