@@ -7,7 +7,7 @@ const Card = (props) =>{
         window.open(`http://maps.google.com/maps?q=&layer=c&cbll=${props.data.latitude},${props.data.longitude}&cbp=11,${props.data.heading},0,0,${props.data.pitch}`, '_blank')
     }
     if (props.data.description !=null){
-        description = props.data.description.substring(0,20);
+       description = props.data.description.substring(0,20);
     }
     if (props.data.author !=null){
         author = props.data.author.substring(0,12);
