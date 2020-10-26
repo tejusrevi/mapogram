@@ -1,7 +1,10 @@
 Mapogram is a project developed by Tejus Revi. It is a collection of user submitted streetview locations around the world, accessed via latitude and longitude. Any user is allowed to select a location using the interactive map, which will then be stored in a Firebase realtime database. Future visiters to the website will be able to see that location.
 
+
 So, if you got an interesting spot on the world map, go to http://map-o-gram.web.app/ and share your find!
 
+
+![Demo](https://github.com/tejusrevi/mapogram/blob/master/src/images/ezgif.com-gif-maker.gif)
 
 ## Available Scripts
 
