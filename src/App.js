@@ -17,9 +17,9 @@ var firebaseConfig = {
   databaseURL: "https://map-o-gram.firebaseio.com",
   projectId: "map-o-gram",
   storageBucket: "map-o-gram.appspot.com",
-  messagingSenderId: "1047462531795",
-  appId: "1:1047462531795:web:22fa8cde942cca08903a26",
-  measurementId: "G-LZFV7WVYQL"
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID",
+  measurementId: "MES_ID"
 };
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
